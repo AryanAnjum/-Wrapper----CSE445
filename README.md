@@ -134,55 +134,51 @@ Speech Query:
  • System transcribes, retrieves context, answers, and speaks back
 
 📁 Project Structure:
-WRAPPER---CSE445/
-├── __pycache__/
-│   ├── app.cpython-313.pyc
-│   └── asr.cpython-313.pyc
-│
-├── src/
-│   ├── __pycache__/
-│   │   ├── __init__.cpython-313.pyc
-│   │   ├── data_loader.cpython-313.pyc
-│   │   ├── document_rag.cpython-313.pyc
-│   │   ├── embedding.cpython-313.pyc
-│   │   ├── local_llm.cpython-313.pyc
-│   │   ├── search.cpython-313.pyc
-│   │   ├── transcript_rag.cpython-313.pyc
-│   │   └── vectorstore.cpython-313.pyc
+WRAPPER---CSE445/                                                                                                                                                                                                                                                          
+├── __pycache__/                                                                                                                                                                                                                                                          
+│   ├── app.cpython-313.pyc                                                                                                                                                                                                                                                   
+│   └── asr.cpython-313.pyc                                                                                                                                                                                                                                                   
+│                                                                                                                                                                                                                                                                             
+├── src/                                                                                                                                                                                                                                                                      
+│   ├── __pycache__/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+│   │   ├── __init__.cpython-313.pyc                                                                                                                                                                                                                                          
+│   │   ├── data_loader.cpython-313.pyc                                                                                                                                                                                                                                       
+│   │   ├── document_rag.cpython-313.pyc                                                                                                                                                                                                                                      
+│   │   ├── embedding.cpython-313.pyc                                                                                                                                                                                                                                         
+│   │   ├── local_llm.cpython-313.pyc                                                                                                                                                                                                                                         
+│   │   ├── search.cpython-313.pyc                                                                                                                                                                                                                                            
+│   │   ├── transcript_rag.cpython-313.pyc                                                                                                                                                                                                                                    
+│   │   └── vectorstore.cpython-313.pyc                                                                                                                                                                                                                                       
 │   │
-│   ├── __init__.py
-│   ├── data_loader.py        # Load and preprocess documents
-│   ├── document_rag.py       # RAG pipeline for document-based queries
-│   ├── embedding.py          # Text chunking and embedding generation
-│   ├── local_llm.py          # Local LLM (Ollama) integration
-│   ├── search.py             # Semantic search logic
-│   ├── transcript_rag.py     # Speech-based RAG handling
-│   └── vectorstore.py        # FAISS vector store management
+│   ├── __init__.py                                                                                                                                                                                                                                                           
+│   ├── data_loader.py        # Load and preprocess documents                                                                                                                                                                                                                 
+│   ├── document_rag.py       # RAG pipeline for document-based queries                                                                                                                                                                                                       
+│   ├── embedding.py          # Text chunking and embedding generation                                                                                                                                                                                                        
+│   ├── local_llm.py          # Local LLM (Ollama) integration                                                                                                                                                                                                                
+│   ├── search.py             # Semantic search logic                                                                                                                                                                                                                         
+│   ├── transcript_rag.py     # Speech-based RAG handling                                                                                                                                                                                                                     
+│   └── vectorstore.py        # FAISS vector store management                                                                                                                                                                                                                 
 │
 ├── app.py                    # Application-level logic
-├── asr.py                    # Speech-to-text (Whisper) handling
-├── main.py                   # Entry point (interactive CLI)
-├── LICENSE
-├── pyproject.toml            # Project configuration
-├── requirements.txt          # Python dependencies
-└── uv.lock                   # Locked dependency versions
-
-👥 Contributing Guidelines
- • Follow PEP-8
- • Use meaningful commit messages
- • Never commit .env
- • Test before pushing
- 
-🎓 Academic Information
- • Course: CSE445
- • Project Type: Final Project
- • Topic: Retrieval-Augmented Generation (RAG) And Local LLM And OpenAi
-
-📌 Status
- • Python Version: 3.13.2+
- • Build: Stable
- • Deployment: Local
- • Last Updated: December 2025
-
-
- 
+├── asr.py                    # Speech-to-text (Whisper) handling                                                                                                                                                                                                             
+├── main.py                   # Entry point (interactive CLI)                                                                                                                                                                                                                 
+├── LICENSE                                                                                                                                                                                                                                                                   
+├── pyproject.toml            # Project configuration                                                                                                                                                                                                                         
+├── requirements.txt          # Python dependencies                                                                                                                                                                                                                           
+└── uv.lock                   # Locked dependency versions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+👥 Contributing Guidelines                                                                                                                                                                                                                                                    
+ • Follow PEP-8                                                                                                                                                                                                                                                               
+ • Use meaningful commit messages                                                                                                                                                                                                                                             
+ • Never commit .env                                                                                                                                                                                                                                                          
+ • Test before pushing                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                              
+🎓 Academic Information                                                                                                                                                                                                                                                       
+ • Course: CSE445                                                                                                                                                                                                                                                             
+ • Project Type: Final Project                                                                                                                                                                                                                                                
+ • Topic: Retrieval-Augmented Generation (RAG) And Local LLM And OpenAi                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                              
+📌 Status                                                                                                                                                                                                                                                                     
+ • Python Version: 3.13.2+                                                                                                                                                                                                                                                    
+ • Build: Stable                                                                                                                                                                                                                                                              
+ • Deployment: Local                                                                                                                                                                                                                                                          
+ • Last Updated: December 2025                                                                                                                                                                                                                                                
